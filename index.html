@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dilo y Suéltalo: una comunidad para expresarte, escucharte y aprender sobre bienestar emocional.">
+  <title>Dilo y Suéltalo | Tu voz importa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Dilo y Suéltalo, inicio">
+      <!-- Puedes reemplazar este símbolo por tu archivo de logo: <img src="logo.png" alt="Dilo y Suéltalo"> -->
+      <span class="brand-mark" aria-hidden="true">d!</span>
+      <span class="brand-name">Dilo <small>y Suéltalo</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">¿Quiénes somos?</a>
+      <a href="#explora">Explora</a>
+      <a href="#comentarios">Comentarios</a>
+      <a href="#familias">Para familias</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> UN ESPACIO PARA SER TÚ</p>
+        <h1>Lo que piensas <span>importa.</span><br>Lo que sientes <span>también.</span></h1>
+        <p class="hero-text">Un lugar para poner en palabras lo que llevas dentro, escuchar otras experiencias y descubrir que no tienes que entenderlo todo a solas.</p>
+        <div class="hero-actions">
+          <a class="button button-red" href="#comentarios">Quiero expresarme <span>↗</span></a>
+          <a class="button button-outline" href="#nosotros">Conoce el proyecto</a>
+        </div>
+        <div class="hero-note"><span class="note-icon">♡</span><p>Tu voz merece respeto. Puedes participar sin crear una cuenta.</p></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración decorativa de una mano que habla">
+        <div class="art-circle circle-one"></div><div class="art-circle circle-two"></div>
+        <div class="speech speech-top">¿Cómo te sientes hoy?</div>
+        <div class="hand-emoji" aria-hidden="true">🖐️</div>
+        <div class="speech speech-bottom">Te leemos. Sin juzgar.</div>
+        <span class="spark spark-one">✳</span><span class="spark spark-two">✦</span>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Mensaje de la comunidad">
+      <div>HABLA CON LIBERTAD <span>✳</span> ESCUCHA CON EMPATÍA <span>✳</span> ACOMPAÑA SIN JUZGAR <span>✳</span> HABLA CON LIBERTAD <span>✳</span></div>
+    </section>
+
+    <section class="section intro-grid" id="nosotros">
+      <div>
+        <p class="eyebrow">01 / NUESTRA ESENCIA</p>
+        <h2>Un espacio para soltar, <span>no para juzgar.</span></h2>
+      </div>
+      <div class="intro-copy">
+        <p>Dilo y Suéltalo nace de una idea sencilla: a veces necesitamos un lugar donde expresarnos, ordenar nuestros pensamientos y sentir que alguien nos escucha.</p>
+        <p>Queremos impulsar conversaciones sobre las emociones, la salud mental, la vida cotidiana y los desafíos que viven jóvenes y adultos. También queremos acercar a las familias a una forma de escuchar con paciencia y empatía.</p>
+        <div class="values">
+          <div><strong>01</strong><span>Expresión libre</span></div>
+          <div><strong>02</strong><span>Escucha respetuosa</span></div>
+          <div><strong>03</strong><span>Aprendizaje compartido</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mission-band">
+      <div class="mission-symbol">“</div>
+      <div><p class="eyebrow">LO QUE NOS MUEVE</p><h2>No siempre necesitas una respuesta.<br>A veces, necesitas que te escuchen.</h2></div>
+      <div class="mission-side">Un comentario puede abrir una conversación. Una conversación puede acercarnos.</div>
+    </section>
+
+    <section class="section explore" id="explora">
+      <div class="section-heading">
+        <div><p class="eyebrow">02 / APRENDE Y DESCUBRE</p><h2>Hay muchas formas de <span>sentir.</span></h2></div>
+        <p>Explora temas que nos ayudan a conocernos mejor y a tratar a los demás con más comprensión.</p>
+      </div>
+      <div class="topic-grid">
+        <article class="topic-card topic-lime"><span class="topic-number">TEMA 01</span><div class="topic-icon">☼</div><h3>Emociones sin filtro</h3><p>Aprende a reconocer lo que sientes y encuentra palabras para expresarlo.</p><a href="#comentarios">Conversar sobre esto ↗</a></article>
+        <article class="topic-card topic-white"><span class="topic-number">TEMA 02</span><div class="topic-icon">◎</div><h3>Juventud y sociedad</h3><p>Comparte tus ideas sobre la amistad, las redes, el colegio y el mundo que nos rodea.</p><a href="#comentarios">Conversar sobre esto ↗</a></article>
+        <article class="topic-card topic-red"><span class="topic-number">TEMA 03</span><div class="topic-icon">♡</div><h3>Escuchar también es cuidar</h3><p>Pequeñas ideas para acompañar a alguien con respeto, paciencia y empatía.</p><a href="#familias">Ver consejos ↗</a></article>
+      </div>
+      <div class="activity-banner">
+        <div class="activity-badge">MINI<br>PAUSA</div>
+        <div><p class="eyebrow">UNA DINÁMICA PARA EMPEZAR</p><h3>Si tu día tuviera un color, ¿cuál sería?</h3><p>No hay respuesta correcta. Elige un color y completa la frase.</p></div>
+        <div class="activity-control"><label for="moodColor">Mi color de hoy</label><select id="moodColor"><option value="">Elige un color</option><option>Rojo: energía o intensidad</option><option>Amarillo: alegría o esperanza</option><option>Verde: calma o equilibrio</option><option>Azul: tranquilidad o nostalgia</option><option>Violeta: imaginación o reflexión</option><option>Gris: necesito una pausa</option></select><button class="button button-dark" id="moodButton">Completar frase</button><p id="moodResult" class="mood-result" aria-live="polite"></p></div>
+      </div>
+    </section>
+
+    <section class="comments-section" id="comentarios">
+      <div class="section comments-layout">
+        <div class="comments-intro">
+          <p class="eyebrow">03 / TU ESPACIO</p>
+          <h2>Di lo que llevas dentro. <span>Con respeto.</span></h2>
+          <p>Comparte una idea, una reflexión o una pregunta. Puedes escribir con un apodo o de forma anónima. No necesitas suscribirte.</p>
+          <div class="comment-rules"><strong>Antes de publicar</strong><p>Cuida tu privacidad, evita compartir datos personales y trata las experiencias ajenas con respeto. Los mensajes ofensivos o que expongan a alguien no deben publicarse.</p></div>
+        </div>
+        <div class="comment-panel">
+          <form id="commentForm">
+            <label for="nickname">¿Cómo te llamamos? <span>(opcional)</span></label>
+            <input id="nickname" name="nickname" maxlength="30" placeholder="Apodo o “Anónimo”">
+            <label for="category">Tema de tu comentario</label>
+            <select id="category" name="category"><option>Emociones</option><option>Juventud y sociedad</option><option>Familia</option><option>Amistad</option><option>Reflexión libre</option></select>
+            <label for="commentText">Tu comentario</label>
+            <textarea id="commentText" name="commentText" rows="4" maxlength="500" required placeholder="Escribe lo que quieras compartir…"></textarea>
+            <div class="form-foot"><span id="charCount">0/500</span><button class="button button-red" type="submit">Publicar comentario ↗</button></div>
+            <p class="form-message" id="formMessage" aria-live="polite"></p>
+          </form>
+          <div class="demo-notice">Modo demostración: los comentarios aparecen en esta página mientras esté abierta. Para que todos los visitantes puedan verlos y se guarden, hace falta conectar una base de datos.</div>
+        </div>
+      </div>
+      <div class="section community-posts">
+        <div class="posts-heading"><h3>Voces de la comunidad <span id="postCount">0</span></h3><p>Mensajes de ejemplo y comentarios de esta sesión</p></div>
+        <div class="post-list" id="postList">
+          <article class="post-card sample-post"><div class="post-avatar">A</div><div><div class="post-meta"><strong>Alguien de la comunidad</strong><span>Ejemplo · Emociones</span></div><p>A veces, hablar con alguien de confianza es un buen primer paso. Escuchar sin apurarnos también cuenta.</p><span class="post-tag">#EscuchaConEmpatía</span></div></article>
+          <article class="post-card sample-post"><div class="post-avatar avatar-lime">D</div><div><div class="post-meta"><strong>Una reflexión</strong><span>Ejemplo · Familia</span></div><p>No siempre sabemos qué decir, pero podemos empezar preguntando: “¿Quieres contarme cómo te sientes?”.</p><span class="post-tag">#Acompañar</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section family-section" id="familias">
+      <div class="family-card">
+        <div class="family-illustration" aria-hidden="true"><span>♡</span><div>☻ <b>☻</b></div><small>ESCUCHAR<br>TAMBIÉN ES CUIDAR</small></div>
+        <div class="family-copy"><p class="eyebrow">04 / PARA MADRES, PADRES Y CUIDADORES</p><h2>Acompañar empieza por <span>escuchar.</span></h2><p>Los jóvenes no siempre necesitan consejos inmediatos. A veces necesitan sentirse seguros para hablar y saber que sus emociones serán tomadas en serio.</p><ul><li>Haz preguntas abiertas y escucha sin interrumpir.</li><li>Evita burlas, comparaciones o minimizar lo que sienten.</li><li>Pregunta si quieren ideas, ayuda práctica o solo ser escuchados.</li><li>Si algo les preocupa mucho, busca apoyo de una persona adulta de confianza o un profesional.</li></ul><p class="gentle-note">Esta página es educativa y comunitaria; no reemplaza la atención de profesionales de salud mental.</p></div>
+      </div>
+    </section>
+
+    <section class="closing section">
+      <p class="eyebrow">TU VOZ TIENE UN LUGAR</p><h2>Respira. Escribe.<br><span>Suéltalo.</span></h2><a class="button button-red" href="#comentarios">Deja tu comentario ↗</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">d!</span><span class="brand-name">Dilo <small>y Suéltalo</small></span></a>
+    <p>Un espacio para expresarnos, escucharnos y aprender juntos.</p>
+    <span>© <span id="year"></span> Dilo y Suéltalo · Comunidad con respeto</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
